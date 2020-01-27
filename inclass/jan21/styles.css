@@ -1,0 +1,24 @@
+body {
+    background: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background: lightpink;
+    padding: 20px;
+    width: 75%;
+    margin: auto;   /* center horizontally */
+}
+
+h1 {
+    color: lawngreen;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+td {
+    border: 2px solid gray;
+}
