@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(images/background.jpg);
+}
+
+#content {
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    background-color: rgb(112, 112, 112);
+    border-radius: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background: rgb(76, 1, 2);
+}
+
+#main_nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#main_nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+    color: rgb(76, 1, 2);
+    border: 5px solid transparent;
+}
+
+#main_nav a:hover {
+    border-bottom: 2px solid rgb(76, 1, 2);
+}
+
+#ricflair1, #ricflair2, #ricflair3, #ricflair4 {
+    border: 5px solid transparent;
+}
+
+#ricflair1:hover {
+    border: 5px solid rgb(76, 1, 2);
+}
+
+#ricflair2:hover {
+    border: 5px solid rgb(76, 1, 2);
+}
+
+#ricflair3:hover {
+    border: 5px solid rgb(76, 1, 2);
+}
+
+#ricflair4:hover {
+    border: 5px solid rgb(76, 1, 2);
+}
+
+
+
+
+
