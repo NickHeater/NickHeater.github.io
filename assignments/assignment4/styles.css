@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    text-align: center;
+}
+
+#main-content {
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    background: lightseagreen;
+}
+
+#main-content label {
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#main-content p {
+    display: block;
+}
+
+#main-content input {
+    width: 25%;
+}
+
+#main-content button {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+#main-content input:focus {
+    background: gray;
+}
