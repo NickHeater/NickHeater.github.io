@@ -5,14 +5,15 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
-#main-header, #assignments-row1, #assignments-row2, #inclass {
+#main-header, #assignments, #inclass {
     padding: 10px;
     margin: 5px;
 }
 
-#assignments-row1 section, #assignments-row2 section {
+#assignments section {
     background: mediumaquamarine;
     margin: 5px;
     padding: 10px;
@@ -35,11 +36,12 @@ h1 ,h2 {
 }
 
 @media(min-width:900px) {
-    #assignments-row1, #assignments-row2, .exercises {
+    #assignments, .exercises {
         display: flex;
+        flex-wrap: wrap;
     }
 
-    #assignments-row1 section, #assignments-row2 section, .exercises section {
+    #assignments section, .exercises section {
         flex: 1;
     }
 }
